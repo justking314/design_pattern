@@ -11,8 +11,8 @@ class Server(metaclass=ABCMeta):
         pass
     def __str__(self):
         return self.name
-    @abstractmethodgit
 
+    @abstractmethod
     def boot(self):
         pass
 
